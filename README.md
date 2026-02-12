@@ -7,15 +7,15 @@
 
 This project presents a **comprehensive Analytics Intelligence Framework** that transforms raw retail sales data into meaningful business insights through a structured analytics pipeline. The framework integrates five key components:
 
-✅ **Data Quality Assessment** - Cleaning, validation, and error detection  
-✅ **Exploratory Data Analysis** - Statistical insights and data understanding  
-✅ **Advanced Visualization** - Data-driven graphical representations  
-✅ **Predictive Modeling** - Machine learning-based sales forecasting  
-✅ **Business Intelligence** - Actionable insights for decision-making  
+**Data Quality Assessment** - Cleaning, validation, and error detection  
+**Exploratory Data Analysis** - Statistical insights and data understanding  
+**Advanced Visualization** - Data-driven graphical representations  
+**Predictive Modeling** - Machine learning-based sales forecasting  
+**Business Intelligence** - Actionable insights for decision-making  
 
 ---
 
-## 📥 Dataset
+## Dataset
 
 **Superstore Sales Dataset** - Retail Business Data  
 **Dataset Link:** [Kaggle - Sales Forecasting Dataset](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting)
@@ -31,7 +31,7 @@ This project presents a **comprehensive Analytics Intelligence Framework** that 
 
 ---
 
-## 🏗️ Framework Architecture
+##  Framework Architecture
 
 ```
 1. Data Collection
@@ -47,9 +47,7 @@ This project presents a **comprehensive Analytics Intelligence Framework** that 
 6. Business Intelligence Results
 ```
 
----
-
-## 🧹 Data Quality Techniques Implemented
+## Data Quality Techniques Implemented
 
 - ✓ Missing value analysis and handling
 - ✓ Duplicate record detection and removal
@@ -61,9 +59,9 @@ This project presents a **comprehensive Analytics Intelligence Framework** that 
 ### Outlier Detection - Sales Distribution
 ![Outlier Detection](images/01_outlier_detection.png)
 
----
 
-## 📊 Exploratory Data Analysis & Visualization
+
+##  Exploratory Data Analysis & Visualization
 
 This section reveals key patterns and trends in the retail sales data through advanced visualization techniques.
 
@@ -75,7 +73,6 @@ This section reveals key patterns and trends in the retail sales data through ad
 - Clear regional performance hierarchy visible
 - Identifies high-performing vs. underperforming regions
 
----
 
 ### Sales Performance by Product Category
 ![Sales by Category](images/03_sales_by_category.png)
@@ -85,7 +82,6 @@ This section reveals key patterns and trends in the retail sales data through ad
 - Furniture and Office Supplies show steady performance
 - Category-wise portfolio analysis for strategic planning
 
----
 
 ### Monthly Sales Trend Analysis
 ![Monthly Sales Trend](images/04_monthly_sales_trend.png)
@@ -95,9 +91,8 @@ This section reveals key patterns and trends in the retail sales data through ad
 - Peak months identification for resource planning
 - Trend analysis for inventory management
 
----
 
-## 🤖 Predictive Modeling Using Linear Regression
+##  Predictive Modeling Using Linear Regression
 
 ### Model Overview
 - **Algorithm:** Linear Regression
@@ -116,7 +111,6 @@ All categorical variables are converted to numerical using **one-hot encoding** 
 | **Mean Squared Error (MSE)** | Captures larger errors |
 | **R² Score** | Model accuracy (0-1 scale) |
 
----
 
 ### Actual vs Predicted Sales
 ![Actual vs Predicted](images/05_actual_vs_predicted.png)
@@ -127,7 +121,7 @@ All categorical variables are converted to numerical using **one-hot encoding** 
 - Scatter shows model fit quality
 - Enables sales forecasting for business planning
 
----
+
 
 ### Residual Distribution Analysis
 ![Residual Distribution](images/06_residual_distribution.png)
@@ -138,9 +132,8 @@ All categorical variables are converted to numerical using **one-hot encoding** 
 - Identifies prediction bias and model limitations
 - Helps understand prediction accuracy patterns
 
----
 
-## 💼 Key Business Insights
+##  Key Business Insights
 
 ### Regional Strategy
 🔹 **West Region** - Premium market with highest contribution  
@@ -148,25 +141,24 @@ All categorical variables are converted to numerical using **one-hot encoding** 
 🔹 **East & Central** - Stable market segments  
 
 ### Category Performance
-📌 **Technology** - High-margin, revenue driver  
-📌 **Furniture** - Volume-based sales  
-📌 **Office Supplies** - Essential recurring revenue  
+**Technology** - High-margin, revenue driver  
+**Furniture** - Volume-based sales  
+**Office Supplies** - Essential recurring revenue  
 
 ### Seasonal Patterns
-📅 **Peak Months** - Critical for inventory planning  
-📅 **Off-Peak Months** - Opportunity for promotions  
-📅 **Trend Cycle** - Annual business rhythm  
+**Peak Months** - Critical for inventory planning  
+**Off-Peak Months** - Opportunity for promotions  
+**Trend Cycle** - Annual business rhythm  
 
 ### Forecasting Capability
-🎯 The Linear Regression model enables:
+ The Linear Regression model enables:
 - Monthly sales prediction for budgeting
 - Resource allocation optimization
 - Inventory management planning
 - Marketing budget optimization
 
----
 
-## 🔍 Technologies & Libraries Used
+## Technologies & Libraries Used
 
 ### Data Processing
 - **Pandas** - Data manipulation and analysis
@@ -180,9 +172,8 @@ All categorical variables are converted to numerical using **one-hot encoding** 
 - **Scikit-learn** - Linear Regression model
 - **Train-test Split** - Model validation methodology
 
----
 
-## 📈 Project Workflow
+## Project Workflow
 
 ```python
 # Step 1: Data Loading & Cleaning
@@ -206,19 +197,17 @@ predictions = model.predict(X_test)
 r2 = r2_score(y_test, predictions)
 ```
 
----
+##  Key Achievements
 
-## 🎯 Key Achievements
+ **Complete Data Pipeline** - From raw data to business insights  
+ **Data Quality Assurance** - Robust validation framework  
+ **Visual Intelligence** - 6 comprehensive visualizations  
+ **Predictive Accuracy** - Machine learning model deployment  
+ **Business Actionable** - Direct strategic decision support  
 
-✅ **Complete Data Pipeline** - From raw data to business insights  
-✅ **Data Quality Assurance** - Robust validation framework  
-✅ **Visual Intelligence** - 6 comprehensive visualizations  
-✅ **Predictive Accuracy** - Machine learning model deployment  
-✅ **Business Actionable** - Direct strategic decision support  
 
----
 
-## 📚 Learning Outcomes
+##  Learning Outcomes
 
 This project demonstrates proficiency in:
 - Data science workflows and best practices
@@ -228,9 +217,9 @@ This project demonstrates proficiency in:
 - Machine learning model development
 - Business intelligence applications
 
----
 
-## 🚀 How to Use
+
+##  How to Use
 
 1. **Clone the repository**
    ```bash
@@ -253,9 +242,9 @@ This project demonstrates proficiency in:
    python generate_charts.py
    ```
 
----
 
-## 📁 Project Structure
+
+##  Project Structure
 
 ```
 Analytics-Intelligence-Framework-OCC(PDA)/
@@ -274,44 +263,43 @@ Analytics-Intelligence-Framework-OCC(PDA)/
 └── generate_charts.py                  # Chart generation script
 ```
 
----
 
-## 📋 Course Information
+
+##  Course Information
 
 **Course:** Programming for Data Analytics (OCC-PDA)  
 **Institution:** Professional Data Analytics Program  
 **Project Type:** Capstone Analytics Intelligence Framework  
 
----
 
-## 🔗 References & Resources
+
+##  References & Resources
 
 - [Scikit-learn Documentation](https://scikit-learn.org/)
 - [Pandas User Guide](https://pandas.pydata.org/docs/)
 - [Matplotlib Tutorials](https://matplotlib.org/tutorials/index.html)
 - [Seaborn Gallery](https://seaborn.pydata.org/examples.html)
 
----
+
 
 ## 👤 Author
 
 **Abinaya**  
 GitHub: [@Abinaya-202005](https://github.com/Abinaya-202005)
 
----
 
 ## 📝 License
 
 This project is open source and available under the MIT License.
 
----
 
-## ⭐ Conclusion
+
+##  Conclusion
 
 The **Analytics Intelligence Framework** successfully demonstrates how integrating data quality assurance, exploratory analysis, advanced visualization, and predictive modeling creates a powerful tool for business intelligence. This end-to-end framework provides actionable insights that support strategic decision-making in retail analytics.
 
 **Key Takeaway:** Data-driven decision making powered by comprehensive analytics pipeline! 🚀
 
----
+
 
 *Last Updated: February 2026*
