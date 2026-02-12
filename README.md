@@ -282,13 +282,13 @@ Analytics-Intelligence-Framework-OCC(PDA)/
 
 
 
-## 👤 Author
+## Author
 
 **Abinaya**  
 GitHub: [@Abinaya-202005](https://github.com/Abinaya-202005)
 
 
-## 📝 License
+## License
 
 This project is open source and available under the MIT License.
 
